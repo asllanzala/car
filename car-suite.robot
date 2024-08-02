@@ -6,6 +6,6 @@ car
     Log    hello world    warn
     New Browser    browser=chromium    headless=False    timeout=20s
     New Context
-    New Page    http://172.16.5.43:15166/bsc/bos/appIndex
+    New Page    https://www.baidu.com
     Take Screenshot
     Sleep    5s
